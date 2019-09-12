@@ -14,9 +14,9 @@
 <petclinic:bodyHeader menuName="home"/>
 
 <div class="container-fluid">
-    <div class="container xd-container">
+    <div>
         <h2><fmt:message key="Welcome to the PetClinic Website"/></h2>
-        <div class="row">
+        <div>
             <div class="col-md-12">
                 <spring:url value="/resources/images/pets.png" htmlEscape="true" var="petsImage"/>
                 <img class="img-responsive" src="${petsImage}"/>
